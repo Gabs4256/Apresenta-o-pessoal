@@ -9,7 +9,7 @@
 body {
   height: 100%;
   box-sizing: border-box;
-  background-color: #000000;
+  background-image: url("segundo.png.jpg");
   color: #f6f6f6;
 }
 .titulo-destaque {
@@ -19,13 +19,16 @@ body {
   color: #22d4fd;
 }
 .bloco-principal {
-  margin: 10%;
+  margin: 10% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .bloco__filho {
   width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 .apresentacao__conteudo {
   font-size: 36px;
@@ -40,7 +43,7 @@ body {
 }
 
 img {
-  max-width: 28%;
+  max-width: 31%;
   height: auto;
 }
 .aprensentacao__links {
@@ -49,7 +52,7 @@ img {
 }
 .apresentacao__links__linkedin {
   background-color: #22d4fd;
-  width: 280px;
+  width: 300px;
   text-align: center;
   border-radius: 16px;
   font-size: 24px;
