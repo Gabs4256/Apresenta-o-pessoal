@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   box-sizing: border-box;
   background-color: #000000;
   color: #f6f6f6;
@@ -27,13 +27,13 @@ body {
 .bloco__filho {
   width: 800px;
 }
-.apressentacao__conteudo {
+.apresentacao__conteudo {
   font-size: 36px;
   font-family: "Krona One", serif;
   font-weight: 400;
   font-style: normal;
 }
-.apresentacao__coteudo_texto {
+.apresentacao__conteudo_texto {
   font-size: 24px;
   font-family: "Montserrat", serif;
   font-weight: "normal";
