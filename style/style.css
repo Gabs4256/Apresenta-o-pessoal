@@ -21,6 +21,9 @@ body {
   display: flex;
   gap: 80px;
 }
+.cabecalho_menu_link:hover {
+  text-decoration-line: underline;
+}
 .cabecalho_menu_link {
   font-family: "Montserrat", serif;
   font-size: 24px;
@@ -105,15 +108,19 @@ img {
 .apresentacao__links__links:hover {
   background-color: #272727;
 }
-.bloco_formacao {
-  padding: 5% 25%;
+.bloco_container {
   display: flex;
-  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-.paragrafo_experiencia {
-  font-family: "Montserrat", serif;
-  text-align: justify;
-  font-size: 88%;
-  font-weight: 600;
-  gap: 3%;
+
+.bloco_experiencia {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .bloco_container {
+    flex-direction: column;
+  }
 }
