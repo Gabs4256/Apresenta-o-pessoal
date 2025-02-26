@@ -108,15 +108,76 @@ img {
 .apresentacao__links__links:hover {
   background-color: #272727;
 }
-.bloco_container {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container_superior {
   display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 5%;
+}
+
+.bloco_formacao {
+  margin: 8%;
+  margin-bottom: 15%;
+  border: 5px solid #22d4fd;
+  border-radius: 2%;
+  padding: 40px;
+  text-align: justify;
+}
+.titulo {
+  font-size: 50px;
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+.titulo_f {
+  color: #22d4fd;
+}
+.P-form {
+  font-size: 18px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+.faculdade {
+  color: #22d4fd;
 }
 
 .bloco_experiencia {
   flex: 1;
+  flex-direction: column;
+  border: 5px solid #22d4fd;
+  border-radius: 2%;
+  padding: 40px;
+  text-align: justify;
+  gap: 2px;
+  margin-right: 8%;
+  margin-top: 8%;
+}
+.titulo_exp {
+  font-size: 50px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-optical-sizing: auto;
+  text-align: start;
+}
+.titulo_2 {
+  color: #22d4fd;
+}
+.p-trajeto {
+  font-size: 18px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+.bloco_crf {
 }
 
 @media (max-width: 768px) {
