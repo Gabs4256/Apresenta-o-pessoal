@@ -113,71 +113,73 @@ img {
   padding: 0;
   box-sizing: border-box;
 }
-.container_superior {
+
+.bloco_container {
   display: flex;
-  justify-content: space-evenly;
-  gap: 5%;
+  justify-content: space-between;
+  gap: 8%;
+  padding: 80px;
+  margin: 3%;
+}
+
+.lado_esquerdo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .bloco_formacao {
-  margin: 8%;
-  margin-bottom: 15%;
   border: 5px solid #22d4fd;
-  border-radius: 2%;
-  padding: 40px;
-  text-align: justify;
-}
-.titulo {
-  font-size: 50px;
-  font-family: "Roboto", serif;
-  font-weight: 600;
-  font-style: normal;
-  font-optical-sizing: auto;
-}
-.titulo_f {
-  color: #22d4fd;
-}
-.P-form {
-  font-size: 18px;
-  font-family: "Roboto", serif;
-  font-weight: 500;
-  font-style: normal;
-  font-optical-sizing: auto;
+  border-radius: 8%;
+  padding: 35px;
+  margin-bottom: 20px;
 }
 .faculdade {
   color: #22d4fd;
 }
+.bloco_crf_p {
+  border: 5px solid #22d4fd;
+  border-radius: 8%;
+  padding: 15px;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+}
+.link_crf_ativo {
+  text-decoration: none;
+  color: #f6f6f6;
+}
+.bloco_crf_p:hover {
+  background-color: #272727;
+}
+.Profissao {
+  color: #22d4fd;
+}
 
 .bloco_experiencia {
-  flex: 1;
-  flex-direction: column;
+  flex: 2;
   border: 5px solid #22d4fd;
-  border-radius: 2%;
-  padding: 40px;
-  text-align: justify;
-  gap: 2px;
-  margin-right: 8%;
-  margin-top: 8%;
+  border-radius: 8%;
+  padding: 20px;
+  text-align: center;
 }
+.titulo,
 .titulo_exp {
   font-size: 50px;
   font-family: "Roboto", serif;
-  font-weight: 500;
-  font-style: normal;
-  font-optical-sizing: auto;
-  text-align: start;
+  font-weight: 600;
 }
+
+.titulo_f,
 .titulo_2 {
   color: #22d4fd;
 }
+.P-form,
 .p-trajeto {
   font-size: 18px;
   font-family: "Roboto", serif;
   font-weight: 500;
-  font-style: normal;
-  font-optical-sizing: auto;
-}
-.bloco_crf {
+  text-align: justify;
 }
 
 @media (max-width: 768px) {
