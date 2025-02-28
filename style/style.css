@@ -168,6 +168,7 @@ img {
   font-size: 50px;
   font-family: "Roboto", serif;
   font-weight: 600;
+  text-align: center;
 }
 
 .titulo_f,
@@ -176,10 +177,11 @@ img {
 }
 .P-form,
 .p-trajeto {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Roboto", serif;
   font-weight: 500;
   text-align: justify;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
